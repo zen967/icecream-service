@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ice Cream Service</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="shortcut icon" href="images/favicons/favicon.png" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="images/favicons/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/favicon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="images/favicons/favicon.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon.png" />
+  <link rel="manifest" href="images/favicons/manifest.json" />
+  <link rel="yandex-tableau-widget" href="images/favicons/yandex-browser-manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="images/favicons/favicon.png" />
+  <meta name="msapplication-config" content="images/favicons/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif !important;
+    }
+
+    .hero-title {
+      margin-bottom: 10px !important;
+    }
+
+    .hero-title::before {
+      right: 300px !important;
+    }
+
+    /* Pastikan file ini dimuat setelah file CSS utama (main.css) */
+    .portfolio-grid {
+      position: relative;
+    }
+
+    .grid-sizer,
+    .grid-item {
+      width: 25%;
+      /* Untuk 4 kolom */
+    }
+  </style>
+</head>
+
+<body class="webpage">
+  <div class="wrap animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000"
+    data-animsition-out-class="fade-out" data-animsition-out-duration="800">
+    <header class="header">
+      <div class="header-cnt">
+        <div class="header-logo">
+          <span class="header-logo-main">ICE CREAM</span><span class="header-logo-small">SERVICE</span>
+        </div>
+        <div class="container">
+          <div class="header-inner js-header-inner">
+            <div class="header-top">
+              <nav class="header-nav">
+                <ul class="header-nav-list">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="index2.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link" href="menu.html">Our Menu</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="header-phone">
+            <a class="header-phone__link" href="#contact">CONTACT US</a>
+          </div>
+        </div>
+        <div class="header-burger js-header-burger">
+          <div class="header-burger-inner">
+            <span class="header-burger-line"></span><span class="header-burger-line"></span><span
+              class="header-burger-line"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-bg js-hero" style="background-image: url(images/hero2.png)"></div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-12 offset-xl-1 aos-init aos-animate" data-aos="fade">
+              <div class="hero-cnt">
+                <h1 class="hero-title">
+                  BEBERAPA MENU ANDALAN <br> BUAT NYEGERIN ISTIRAHAT <br> DAN MAKAN SIANG LO!&nbsp;
+
+                  <div class="hero-descr">Ice Cream Service</div>
+                </h1>
+                <div class="hero-items">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section portfolio">
+        <div class="portfolio-title-wrap inner-title-wrap">
+          <div class="container">
+            <h1 class="portfolio-title inner-title aos-init aos-animate" data-aos="fade"></h1>
+          </div>
+        </div>
+        <div class="inner-navbar">
+          <div class="container">
+            <ul class="inner-nav aos-init aos-animate" data-aos="fade">
+              <li class="inner-nav__item">
+                <button class="inner-nav__link tipe-menu" type="button" data-filter="*">All</button>
+              </li>
+              <li class="inner-nav__item">
+                <button class="inner-nav__link tipe-menu" type="button" data-filter=".ice">Ice Cream</button>
+              </li>
+              <li class="inner-nav__item">
+                <button class="inner-nav__link tipe-menu" type="button" data-filter=".beverages">Beverages</button>
+              </li>
+              <li class="inner-nav__item">
+                <button class="inner-nav__link tipe-menu" type="button" data-filter=".snacks">Snacks & Foods</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="portfolio-grid js-grid" style="margin: 0px 50px;">
+          <div class="portfolio-masonry__item grid-item grid-sizer mix ice">
+            <div class="project-slide">
+              <div class="project-slide__img"><img src="images/menu-1.png" alt=""></div>
+              <div class="col-md-12 d-flex justify-content-center mt-5">
+                <h2 style="color: #fff; font-weight: bolder;">SIGNATURE WAGOON</h2>
+              </div>
+              <!-- <div class="project-slide__hover">
+                <div class="project-slide__info">
+                  <h3 class="project-slide__title">House in <br>Forest</h3>
+                  <div class="project-slide__descr">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"  are also reproduced in their  accompanied by English 14 translation by H. Rackham.</div>
+                </div>
+                
+              </div> -->
+            </div>
+          </div>
+          <div class="portfolio-masonry__item grid-item mix ice">
+            <div class="project-slide">
+              <div class="project-slide__img"><img src="images/menu-2.png" alt=""></div>
+              <div class="col-md-12 d-flex justify-content-center mt-5">
+                <h2 style="color: #fff; font-weight: bolder;">REGULAR WAGOON </h2>
+              </div>
+              <!-- <div class="project-slide__hover">
+                <div class="project-slide__info">
+                  <h3 class="project-slide__title">House in <br>Forest</h3>
+                  <div class="project-slide__descr">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"  are also reproduced in their  accompanied by English 14 translation by H. Rackham.</div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+          <div class="portfolio-masonry__item grid-item mix ice">
+            <div class="project-slide">
+              <div class="project-slide__img"><img src="images/menu-3.png" alt=""></div>
+              <div class="col-md-12 d-flex justify-content-center mt-5">
+                <h2 style="color: #fff; font-weight: bolder;">SIGNATURE COUPE</h2>
+              </div>
+              <!-- <div class="project-slide__hover">
+                <div class="project-slide__info">
+                  <h3 class="project-slide__title">House in <br>Forest</h3>
+                  <div class="project-slide__descr">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"  are also reproduced in their  accompanied by English 14 translation by H. Rackham.</div>
+                </div>
+                
+              </div> -->
+            </div>
+          </div>
+          <div class="portfolio-masonry__item grid-item mix ice">
+            <div class="project-slide">
+              <div class="project-slide__img"><img src="images/menu-4.png" alt=""></div>
+              <div class="col-md-12 d-flex justify-content-center mt-5">
+                <h2 style="color: #fff; font-weight: bolder;">REGULAR WAFFLE</h2>
+              </div>
+              <!-- <div class="project-slide__hover">
+                <div class="project-slide__info">
+                  <h3 class="project-slide__title">House in <br>Forest</h3>
+                  <div class="project-slide__descr">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"  are also reproduced in their  accompanied by English 14 translation by H. Rackham.</div>
+                </div>
+                
+              </div> -->
+            </div>
+          </div>
+          <div class="portfolio-masonry__item grid-item mix snacks">
+            <div class="project-slide">
+              <div class="project-slide__img"><img src="images/menu-5.png" alt=""></div>
+              <div class="col-md-12 d-flex justify-content-center mt-5">
+                <h2 style="color: #fff; font-weight: bolder;">KATSU RICE</h2>
+              </div>
+              <!-- <div class="project-slide__hover">
+                <div class="project-slide__info">
+                  <h3 class="project-slide__title">House in <br>Forest</h3>
+                  <div class="project-slide__descr">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"  are also reproduced in their  accompanied by English 14 translation by H. Rackham.</div>
+                </div>
+                
+              </div> -->
+            </div>
+          </div>
+          <div class="portfolio-masonry__item grid-item mix snacks">
+            <div class="project-slide">
+              <div class="project-slide__img"><img src="images/menu-6.png" alt=""></div>
+              <div class="col-md-12 d-flex justify-content-center mt-5">
+                <h2 style="color: #fff; font-weight: bolder;">MEXICAN FRIES</h2>
+              </div>
+              <!-- <div class="project-slide__hover">
+                <div class="project-slide__info">
+                  <h3 class="project-slide__title">House in <br>Forest</h3>
+                  <div class="project-slide__descr">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"  are also reproduced in their  accompanied by English 14 translation by H. Rackham.</div>
+                </div>
+                
+              </div> -->
+            </div>
+          </div>
+          <div class="portfolio-masonry__item grid-item mix beverages">
+            <div class="project-slide">
+              <div class="project-slide__img"><img src="images/menu-7.png" alt=""></div>
+              <div class="col-md-12 d-flex justify-content-center mt-5">
+                <h2 style="color: #fff; font-weight: bolder;">FRESHTONE DRINKABLE</h2>
+              </div>
+              <!-- <div class="project-slide__hover">
+                <div class="project-slide__info">
+                  <h3 class="project-slide__title">House in <br>Forest</h3>
+                  <div class="project-slide__descr">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum"  are also reproduced in their  accompanied by English 14 translation by H. Rackham.</div>
+                </div>
+                
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--gray" style="padding-top: 150px !important;" id="contact">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-12 offset-xl-5 create-item create-item__info aos-init aos-animate" data-aos="fade">
+              <h3 style="font-family: 'SFProDisplay-Semibold', sans-serif; font-size: 57px; line-height: 60px; color:
+                white; margin-bottom: 122px;">
+                <a href="#contact" style="text-decoration: none; color: black;">CONTACT ME</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container-big">
+        <div class="footer-items">
+          <div class="footer-item">
+            <div class="footer-logo">
+              <span class="footer-logo-main">ICE CREAM</span><span class="footer-logo-small">SERVICE</span>
+            </div>
+          </div>
+          <div class="footer-item footer-item--hide" style="color: #fff !important;">
+            <div class="footer-title mb-3">
+              <h2>Contact</h2>
+            </div>
+            <ul class="footer-list">
+              <li class="footer-list__item">
+                WhatsApp : <a class="footer-list__link" href="#">081235766896</a>
+              </li>
+              <li class="footer-list__item">
+                Email : <a class="footer-list__link" href="#">icecreamservices.com</a>
+              </li>
+              <li class="footer-list__item">
+                Instagram : <a class="footer-list__link" href="#">ice.cream.service</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-item footer-item--hide" style="color: #fff !important;">
+            <div class="footer-title mb-3">
+              <h2>Address</h2>
+            </div>
+            <ul class="footer-list">
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Jl. Taman Cibeunying Utara No.8, Cihapit, Kec.
+                  Bandung Wetan, Kota
+                  Bandung, Jawa Barat 40114</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/packery-mode.pkgd.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/animsition.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/main.js"></script>
+  <script></script>
+</body>
+
+</html>
