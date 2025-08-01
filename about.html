@@ -27,6 +27,46 @@
     body {
       font-family: 'Montserrat', sans-serif !important;
     }
+
+    .description-about {
+      position: relative;
+      z-index: 2;
+      text-align: left;
+      width: 100%;
+      font-size: 25px;
+      line-height: 40px;
+      color: #fff;
+    }
+
+    .description-about-reverse {
+      position: relative;
+      z-index: 2;
+      margin-left: 250px;
+      text-align: left;
+      width: 100%;
+      font-size: 25px;
+      line-height: 40px;
+      color: #fff;
+    }
+
+    .container-fluid {
+      position: relative;
+      /* supaya anak absolute posisinya relatif ke container ini */
+    }
+
+    .description-image {
+      position: absolute;
+      top: -75%;
+      left: 56%;
+      z-index: 1;
+    }
+
+    .description-image-reverse {
+      position: absolute;
+      top: -75%;
+      right: 60%;
+      z-index: 1;
+    }
   </style>
 </head>
 
@@ -90,42 +130,31 @@
         <div class="planing-cnt">
           <div class="planing-steps">
             <div class="planing-step">
-              <div class="container">
-                <div class="planing-step__items">
-                  <div class="planing-step__item aos-init aos-animate" data-aos="fade">
-                    <div class="planing-step__descr">Ice Cream Service adalah toko es krim unik yang mengusung konsep
-                      otomotif. Tempat ini menawarkan pengalaman menikmati es krim dalam suasana yang menyerupai bengkel
-                      otomotif, lengkap dengan dekorasi khas seperti pajangan sejarah otomotif dan peralatan bengkel.
-                      Dengan desain interior yang tematik, Ice Cream Service tidak hanya menjadi destinasi kuliner,
-                      tetapi juga tempat menarik bagi penggemar otomotif dan pecinta fotografi. Didirikan dengan tujuan
-                      menggabungkan kecintaan terhadap es krim dan dunia otomotif, Ice Cream Service menghadirkan menu
-                      dengan nama-nama unik yang terinspirasi dari industri kendaraan.</div>
-                  </div>
-                  <div class="planing-step__item aos-init aos-animate" data-aos="fade">
-                    <div class="planing-step__img"><img class="js-long-img long-img" src="images/about1.png" alt="">
-                    </div>
-                  </div>
-                </div>
+              <div class="container-fluid" style="padding-left: 200px; padding-right: 300px;">
+                <p class="description-about">
+                  Ice Cream Service adalah toko es krim unik yang mengusung konsep
+                  otomotif. Tempat ini menawarkan pengalaman menikmati es krim dalam suasana yang menyerupai bengkel
+                  otomotif, lengkap dengan dekorasi khas seperti pajangan sejarah otomotif dan peralatan bengkel.
+                  Dengan desain interior yang tematik, Ice Cream Service tidak hanya menjadi destinasi kuliner,
+                  tetapi juga tempat menarik bagi penggemar otomotif dan pecinta fotografi. Didirikan dengan tujuan
+                  menggabungkan kecintaan terhadap es krim dan dunia otomotif, Ice Cream Service menghadirkan menu
+                  dengan nama-nama unik yang terinspirasi dari industri kendaraan.
+                </p>
+                <img class="description-image" src="images/about1.png" alt="">
               </div>
             </div>
             <div class="planing-step planing-step--mb">
-              <div class="container">
-                <div class="planing-step__items planing-step__items--reverse">
-                  <div class="planing-step__item aos-init aos-animate" data-aos="fade">
-                    <div class="planing-step__img"><img class="js-long-img long-img js-img-left" src="images/about2.png"
-                        alt=""></div>
-                  </div>
-                  <div class="planing-step__item aos-init aos-animate" data-aos="fade">
-                    <div class="planing-step__descr">Dengan jam operasional yang fleksibel, Ice Cream Service siap
-                      melayani pengunjung dari pagi hingga malam hari. Suasananya yang menarik dan menu inovatif membuat
-                      tempat ini semakin populer di Bandung sebagai destinasi es krim yang tidak hanya menawarkan cita
-                      rasa lezat, tetapi juga atmosfer yang penuh kreativitas.
+              <div class="container-fluid mt-5" style="padding-left: 200px; padding-right: 300px;">
+                <p class="description-about-reverse">
+                  Dengan jam operasional yang fleksibel, Ice Cream Service siap
+                  melayani pengunjung dari pagi hingga malam hari. Suasananya yang menarik dan menu inovatif membuat
+                  tempat ini semakin populer di Bandung sebagai destinasi es krim yang tidak hanya menawarkan cita
+                  rasa lezat, tetapi juga atmosfer yang penuh kreativitas.
 
-                      Melalui konsepnya yang khas, Ice Cream Service berhasil menjadi bukti bahwa kuliner dapat
-                      dipadukan dengan elemen budaya lain, menciptakan pengalaman yang berbeda bagi setiap pelanggan.
-                    </div>
-                  </div>
-                </div>
+                  Melalui konsepnya yang khas, Ice Cream Service berhasil menjadi bukti bahwa kuliner dapat
+                  dipadukan dengan elemen budaya lain, menciptakan pengalaman yang berbeda bagi setiap pelanggan.
+                </p>
+                <img class="description-image-reverse" src="images/about2.png" alt="">
               </div>
             </div>
           </div>
@@ -176,6 +205,10 @@
               <li class="footer-list__item">
                 <a class="footer-list__link" href="#">Jl. Taman Cibeunying Utara No.8, Cihapit, Kec. Bandung Wetan, Kota
                   Bandung, Jawa Barat 40114</a>
+              </li>
+              <li class="footer-list__item">
+                <a class="footer-list__link" href="#">Jl. Tera No.32, Braga, Kec. Sumur Bandung, Kota Bandung,
+                  Jawa Barat 40111</a>
               </li>
             </ul>
           </div>

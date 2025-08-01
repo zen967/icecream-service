@@ -12081,10 +12081,11 @@
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
-    margin: 0 -222px;
+    margin: 0 -200px;
   }
   
   .planing-step__items--styled .planing-step__item:first-child {
+    position: relative;
     padding-bottom: 200px;
   }
   
