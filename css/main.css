@@ -13405,7 +13405,7 @@
   .footer-logo {
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
